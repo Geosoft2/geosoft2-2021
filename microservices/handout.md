@@ -37,13 +37,19 @@ Each microservice uses it's own database (DB) or an encapsulated instance on a d
 
 # Motivation
 
-Why are we doing this? What use cases does it support? What is the expected
-outcome?
-
-Please focus on explaining the motivation so that if this RFC is not accepted,
-the motivation could be used to develop alternative solutions. In other words,
-enumerate the constraints you are trying to solve without coupling them too
-closely to the solution you have in mind.
+- Scaling/planning of intensive processes
+  - For example training a model or geoprocessing
+  - Use resources efficiently
+  - Scale on demand
+- Distributed development
+  - Developers are able to choose their language and technology
+  - Independently teams which are working on different services
+- Resilient
+  - Independent services do not impact each other
+  - Better testability of less complex services
+- Easy Deployment
+  - Easy to try out new ideas and roll back if something doesn't work
+  - Accelerate new features
 
 # Detailed design
 
