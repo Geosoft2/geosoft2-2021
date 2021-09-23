@@ -1,6 +1,6 @@
 - Start Date: 2021-09-22
-- Issue: #10
-- Authors: @JudithBre, @nschnierer
+- Issue: [#10](https://github.com/Geosoft2/geosoft2-2021/issues/10)
+- Authors: [@JudithBre](http://github.com/JudithBre/), [@nschnierer](http://github.com/nschnierer/)
 
 # Summary
 
