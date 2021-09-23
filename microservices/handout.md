@@ -8,7 +8,32 @@ A microservice is a architectural pattern to structure web applications into sma
 
 # Basic example
 
-<img src="./basic-example.png" width="400px">
+<img src="./basic-example.png" width="480px">
+
+## API Gateway
+
+Handles requests of the user and knows how to address the relevant microservice.
+
+## Microservices
+
+**User**
+
+- `POST /login` -> Login with username and password
+- `GET /me` -> Get the current user
+
+**Invoice**
+
+- `POST /invoices` -> Create a new invoice
+- `GET /invoices` -> Get all invoices
+
+**Customer**
+
+- `POST /customers` -> Create a new customer
+- `GET /customers` -> Get all customers
+
+## Databases
+
+Each microservice uses it's own database (DB) or an encapsulated instance on a database system.
 
 # Motivation
 
