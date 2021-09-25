@@ -13,6 +13,14 @@ In order to perform a cross validation we need a datset containing the observati
 
 ## Concept
 
+The basic concept can be explained with three steps:
+
+1. Splitting the observations into disjointed sets
+2. Using some sets to train the model and unsing the remaining ones to evaluate the model
+3. Calculating a mean error over the sets 
+
+There are diffrent methods to perform a cross validation. Some well-known ones are explained in the following section.
+
 ### Hold-Out Method
 
 ### K-Fold Method
