@@ -10,10 +10,10 @@ Another procedure which can provide us with key figures for the goodness of fit 
 
 ## Concept
 
-# Hold-Out Method
+### Hold-Out Method
 
-# K-Fold Method
+### K-Fold Method
 
-# Leave-One-Out Method
+### Leave-One-Out Method
 
 ## Advantages & Disadvantages
