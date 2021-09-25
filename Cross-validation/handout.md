@@ -9,6 +9,8 @@ Another procedure which can provide us with key figures for the goodness of fit 
 
 ## Prequesits
 
+In order to perform a cross validation we need a datset containing the observatiosn and a model.
+
 ## Concept
 
 ### Hold-Out Method
