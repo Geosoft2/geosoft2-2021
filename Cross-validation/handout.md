@@ -16,12 +16,16 @@ In order to perform a cross validation we need a datset containing the observati
 The basic concept can be explained with three steps:
 
 1. Splitting the observations into disjointed sets
-2. Using some sets to train the model and unsing the remaining ones to evaluate the model
+2. Using some sets to train the model and unsing the remaining ones to test the model
 3. Calculating a mean error over the sets 
 
 There are diffrent methods to perform a cross validation. Some well-known ones are explained in the following section.
 
 ### Hold-Out Method
+
+The hold-out method cross-validation is the simplest approach emntioned here. The observations are simply split into two  disjointed sets.
+One set is used to train the model and the other to test the trained model. Typical ratios for splitting the observations are 60:40 or 80:20 
+whereby the larger set should be used for training and the smaller for testing. 
 
 ### K-Fold Method
 
