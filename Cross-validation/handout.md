@@ -30,9 +30,11 @@ whereby the larger set should be used for training and the smaller for testing. 
 There is a special hold-out method for dealing with problems regarding machine learning. In this special case the trainig set is further divided into two disjunct sets. The training set is still used to train the model while the newly created validation set is used to tune the hyper-parameters (parameters whose values are used to control the learning process).
 The testing-set is still used to derive and error for the model.
 
-If this process is repeated for different models or different hyper-parameters we can provide an error for each model and subsequently select the best one.
+If this process is repeated for different models or different hyper-parameters we can provide an error for each model and subsequently select the best one. K can be choosen arbitrarily (but has to be > 2). 5-fold or 10-fold cross-validations are commonly used.
 
 ### K-Fold Method
+
+The k-fold method cross validation is am more complex approach. The observations are split into k, equally sized subsets. 
 
 ### Leave-One-Out Method
 
