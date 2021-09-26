@@ -5,7 +5,7 @@
 ## Introduction
 
 A large section of statistics deals with the creation, adjustment and verification of models derived from actual observations. To evaluate a model we need to know how "accurate" phenomenon is captured by the model and how suitable the model is to extrapolate the phenomenon into the future. To indicate the goodness of fit we employ different key figures which describe how well a model fits a set of observations. The goodness of fit of a simple liniar regression can for example be expressed with the coefficient of determination (R^2).
-Another procedure which can provide us with key figures for the goodness of fit for a model is the cross-validation.
+Another procedure which can provide us with key figures for the goodness of fit for a model is the cross-validation. 
 
 ## Prequesits
 
@@ -30,11 +30,13 @@ whereby the larger set should be used for training and the smaller for testing. 
 There is a special hold-out method for dealing with problems regarding machine learning. In this special case the trainig set is further divided into two disjunct sets. The training set is still used to train the model while the newly created validation set is used to tune the hyper-parameters (parameters whose values are used to control the learning process).
 The testing-set is still used to derive and error for the model.
 
-If this process is repeated for different models or different hyper-parameters we can provide an error for each model and subsequently select the best one. K can be choosen arbitrarily (but has to be > 2). 5-fold or 10-fold cross-validations are commonly used.
-
 ### K-Fold Method
 
-The k-fold method cross validation is am more complex approach. The observations are split into k, equally sized subsets. 
+The k-fold method cross validation is am more complex approach. The observations are split into k, equally sized subsets. K can be choosen arbitrarily (but has to be > 2). 5-fold or 10-fold cross-validations are commonly used. Each Subset is used once as the testing set and k-1 times as a training set. An error as calculated for each iteration. The overall error is the mean of these errors. This way the entire set of observations is used to train and test the model and no valuable information is lost and the selection bias is reduced significantly. The computation cost however is also higher and depends on the size of the observations-set and the choosen value for k.
+
+There are three special cases of the k-fold cross-validation. The repeated k-fold cross-validation simply reshuffles the observations-set before the next iteration. This process is repeated n times. Where the simple k-fold cross-validation provides k errors the repeated k-fold cross-validation provides n * k errors. Since differenbt splits will result in different error estimtes the repeated k-fold cross-validation results in a more precise error.
+
+The stratified k-fold cross-validation. 
 
 ### Leave-One-Out Method
 
