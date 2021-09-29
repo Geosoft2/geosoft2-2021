@@ -1,4 +1,4 @@
-# <h3> Containerization with Docker
+# <h1> Containerization with Docker
 
 Student: @AntoniaJost
 
