@@ -1,4 +1,4 @@
-# <h1> Containerization with Docker
+# <h3> Containerization with Docker
 
 Student: @AntoniaJost
 
@@ -6,5 +6,5 @@ Student: @AntoniaJost
 - logical sections & informative names
 - add additional files needed to folder
 
-> add git tag handout-submussion-AntoniaJost -> push it to your fork
-> send pull request
+- [ ] add git tag handout-submussion-AntoniaJost -> push it to your fork
+- [ ] send pull request
