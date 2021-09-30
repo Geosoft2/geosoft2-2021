@@ -36,4 +36,4 @@ Student: @AntoniaJost
 - startet Kopie des Images, Prozesse im Container haben die Möglichkeit, während der Laufzeit Änderungen im Dateisystem vorzunehmen
 
 ## Ablauf
-! [Bild zum Ablauf von Docker] (https://github.com/AntoniaJost/geosoft2-2021/blob/main/containerization-with-docker/Docker%20Ablauf.jpg)
+![Bild zum Ablauf von Docker] (https://github.com/AntoniaJost/geosoft2-2021/blob/main/containerization-with-docker/Docker%20Ablauf.jpg)
