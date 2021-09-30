@@ -1,4 +1,4 @@
-# <h1> Containerization with Docker
+# Containerization with Docker
 
 Student: @AntoniaJost
 
@@ -8,3 +8,12 @@ Student: @AntoniaJost
 
 - [ ] add git tag handout-submussion-AntoniaJost -> push it to your fork
 - [ ] send pull request
+
+## Was ist Docker und warum nutzen wir es?
+
+## Begrifflichkeiten
+
+##### Dockerfile
+Bauanleitung für Images, Textdatei
+##### Image
+eingepackte Applikation
