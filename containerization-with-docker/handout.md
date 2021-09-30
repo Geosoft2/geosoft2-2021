@@ -12,7 +12,6 @@ Student: @AntoniaJost
 - Diese Container sind isoliert voneinander & beinhalten deren eigene Software, Bibliotheken und Abhängigkeiten
 - Dennoch kommunizieren die Container untereinander 
 - Alle Container teilen sich die Dienste eines einzigen operating system kernel -> dadurch weniger Ressourcenverbrauch als bei virtueller Maschine
-<br>
 
 ####  Warum?
 - Anwendungen funktionieren geräteübergreifend, unabhängig vom Betriebssystem/anderen Installationen & sind leichter auszustauschen
@@ -26,4 +25,10 @@ Student: @AntoniaJost
 #### Dockerfile
 Bauanleitung für Images, Textdatei
 #### Image
-eingepackte Applikation
+eingepackte Applikation, enthält Dateisystem mit Anwendung & allen benötigten Abhängigkeiten
+#### Registry
+zentrale Bibliothek für Images, dient dazu, fertig gebaute Images zu speichern & später wieder daraus zu laden
+#### Container
+laufende Applikation, startet Kopie des Images, Prozesse im Container haben die Möglichkeit, während der Laufzeit Änderungen im Dateisystem vorzunehmen
+
+## Ablauf
