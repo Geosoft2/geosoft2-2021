@@ -71,24 +71,9 @@ CMD node server.js
 
 ## docker-compose.yml
 ```Dockerfile
-# yml template to dockerise a node.js app
-version: '3'
-services: 
-    appservice: 
-        container_name: mynodeapp
-        build: .
-        #image: aurioldegbelo/myfotoapp
-        ports: 
-            - '4000:3000'
-        depends_on: 
-            - mongoservice
-    mongoservice:
-        container_name: mongo
-        image: mongo
-        ports:
-            - '27017:27017'
-    mongoexpressservice: 
-        image: mongo-express
-        ports: 
-            - '8081:8081'
+# hier Code Beispiel ergänzen
 ```
+
+## Docker Hub
+
+## Beispiele
