@@ -23,12 +23,17 @@ Student: @AntoniaJost
 ## Begrifflichkeiten
 
 #### Dockerfile
-Bauanleitung für Images, Textdatei
+- Bauanleitung für Images 
+- Textdatei
 #### Image
-eingepackte Applikation, enthält Dateisystem mit Anwendung & allen benötigten Abhängigkeiten
+- eingepackte Applikation
+- enthält Dateisystem mit Anwendung & allen benötigten Abhängigkeiten
 #### Registry
-zentrale Bibliothek für Images, dient dazu, fertig gebaute Images zu speichern & später wieder daraus zu laden
+- zentrale Bibliothek für Images
+- dient dazu, fertig gebaute Images zu speichern & später wieder daraus zu laden
 #### Container
-laufende Applikation, startet Kopie des Images, Prozesse im Container haben die Möglichkeit, während der Laufzeit Änderungen im Dateisystem vorzunehmen
+- laufende Applikation
+- startet Kopie des Images, Prozesse im Container haben die Möglichkeit, während der Laufzeit Änderungen im Dateisystem vorzunehmen
 
 ## Ablauf
+! [Bild zum Ablauf von Docker] (https://github.com/AntoniaJost/geosoft2-2021/blob/main/containerization-with-docker/Docker%20Ablauf.jpg)
