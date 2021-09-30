@@ -11,7 +11,7 @@ Student: @AntoniaJost
 - Diese Container sind isoliert voneinander & beinhalten deren eigene Software, Bibliotheken und Abhängigkeiten
 - Dennoch kommunizieren die Container untereinander 
 - Alle Container teilen sich die Dienste eines einzigen operating system kernel -> dadurch weniger Ressourcenverbrauch als bei virtueller Maschine
-
+<br>
 - Anwendungen funktionieren geräteübergreifend, unabhängig vom Betriebssystem/anderen Installationen & sind leichter auszustauschen
 - Vorteil der Standardisierung:
     - jeder Container hat präzisen Ausgangszustand
