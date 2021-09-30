@@ -1,6 +1,6 @@
 # Containerization with Docker
 
-Student: @AntoniaJost
+Student: @Antonia
 
 - markdown syntax
 - logical sections & informative names
@@ -11,9 +11,9 @@ Student: @AntoniaJost
 
 ## Was ist Docker und warum nutzen wir es?
 
-### Begrifflichkeiten
+## Begrifflichkeiten
 
 #### Dockerfile
 Bauanleitung für Images, Textdatei
-##### Image
+#### Image
 eingepackte Applikation
