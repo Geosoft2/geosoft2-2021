@@ -40,26 +40,55 @@ Student: @AntoniaJost
 
 entscheidende Ausdrücke:
 - $ docker build –t name .
+    - -t: tag -> vergibt Namen (name)
+    - .: gibt Build-Kontext an -> da, wo Dockerfile liegt
 - $ docker push
 - $ docker pull
 - $ docker run –d –p host:container
+    - -d: detach: startet Container im Hintergrund
+    - -p: publish: bindet Containerport an Hostport
 
 ## Dockerfile
 ```Dockerfile
+# Gibt Image an, das als Basis verwendet werden soll (eigenes oder aus Registry)
 FROM node:14
 
-# Create app directory
+# Erstellt Verzeichnis
 WORKDIR /usr/src/app
 
-# Copy app code source from our local folder into the docker /usr/src/app working directory
+# Kopiert app code source vom lokalen Ordner in das docker /usr/src/app Arbeitsverzeichnis
 COPY . .
 
-# Install app dependencies
+# Dieser Befehl soll beim Bauen des Images ausgeführt werden
 RUN npm install
 
-# Expose app on a given port
+# Bindet Container an bestimmten Port
 EXPOSE 3000
 
-# Start app
+# Befehl, der beim Start eines Containers aufgerufen werden soll
 CMD node server.js
+```
+
+## docker-compose.yml
+```Dockerfile
+# yml template to dockerise a node.js app
+version: '3'
+services: 
+    appservice: 
+        container_name: mynodeapp
+        build: .
+        #image: aurioldegbelo/myfotoapp
+        ports: 
+            - '4000:3000'
+        depends_on: 
+            - mongoservice
+    mongoservice:
+        container_name: mongo
+        image: mongo
+        ports:
+            - '27017:27017'
+    mongoexpressservice: 
+        image: mongo-express
+        ports: 
+            - '8081:8081'
 ```
