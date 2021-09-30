@@ -11,9 +11,9 @@ Student: @AntoniaJost
 
 ## Was ist Docker und warum nutzen wir es?
 
-## Begrifflichkeiten
+### Begrifflichkeiten
 
-##### Dockerfile
+#### Dockerfile
 Bauanleitung für Images, Textdatei
 ##### Image
 eingepackte Applikation
