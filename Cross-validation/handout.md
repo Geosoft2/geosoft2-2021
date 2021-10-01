@@ -27,8 +27,12 @@ The hold-out method cross-validation is the simplest approach emntioned here (it
 One set is used to train the model and the other to test the trained model. Typical ratios for splitting the observations are 60:40 or 80:20 
 whereby the larger set should be used for training and the smaller for testing. A serious limitation of this method is that the error found can be highly dependend on the observation included in the training or testing set (selection bias). It is also not possible to use the entire datset for training or testing purposes and valuable information can be lost.
 
+![alt text](https://github.com/xcomagent95/geosoft2-2021/gfx/hol_out_1)
+
 There is a special hold-out method for dealing with problems regarding machine learning. In this special case the trainig set is further divided into two disjunct sets. The training set is still used to train the model while the newly created validation set is used to tune the hyper-parameters (parameters whose values are used to control the learning process).
 The testing-set is still used to derive and error for the model.
+
+![alt text](https://github.com/xcomagent95/geosoft2-2021/gfx/hol_out_2)
 
 ### K-Fold Method
 
