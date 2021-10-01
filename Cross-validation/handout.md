@@ -9,7 +9,7 @@ Another procedure which can provide us with key figures for the goodness of fit 
 
 ## Prequesits
 
-In order to perform a cross validation we need a datset containing the observatiosn and a model.
+In order to perform a cross validation we need a datset containing the observatiosn and a model or multiple models.
 
 ## Concept
 
@@ -36,8 +36,10 @@ The k-fold method cross validation is am more complex approach. The observations
 
 There are three special cases of the k-fold cross-validation. The repeated k-fold cross-validation simply reshuffles the observations-set before the next iteration. This process is repeated n times. Where the simple k-fold cross-validation provides k errors the repeated k-fold cross-validation provides n * k errors. Since differenbt splits will result in different error estimtes the repeated k-fold cross-validation results in a more precise error.
 
-The stratified k-fold cross-validation. 
+The stratified k-fold cross-validation can deal with problems which are the result of labeled data. In a labeld dataset we can provide each observation with a certain class. The classes can be of equal size or have different sizes. It can happen that the observations are spilt in a way that a vertain class is not part of a training which will result in higher errors if the class is part of the testing set. To avoid this probelm the stratified cross-validation splits the observations into the labeld classes. Each class gets then spilt according to the selected fold (5, 10, etc.). Each now provides one subset for testing and the remaining for training purposes. In doing so each class is represente in training and testing datasets and the ratio between the classes is the same for training and testing sets as well as in the source datsets containing the observations.
 
 ### Leave-One-Out Method
+
+The leave-one-out method cross-validation can be seen as a special case of the k-fold method cross-validation. Here k is equal to the total number of observations n-1. The observations are split into a training set containing n-1 entries and a testing set consiting of only 1 entry. This method is extremely computationally expensive but a very precise error can be provided. A further variation ist the leave-p-out cross validation where not one but p entries are left out and used for testing. The leave-p-out cross validation can be employed when computation time should be minimized. 
 
 ## Advantages & Disadvantages
