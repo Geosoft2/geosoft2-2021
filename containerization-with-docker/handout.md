@@ -1,7 +1,8 @@
 # Containerization with Docker
 
-Student: @AntoniaJost
-Student: @TobiasBrand-GI (https://github.com/TobiasBrand-GI)
+Student: [@AntoniaJost](https://github.com/AntoniaJost),
+
+Student: [@TobiasBrand-GI](https://github.com/TobiasBrand-GI)
 
 *To-Do:*
 - [ ] add git tag handout-submussion-AntoniaJost -> push it to your fork
