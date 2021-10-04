@@ -47,3 +47,5 @@ The stratified k-fold cross-validation can deal with problems which are the resu
 ### Leave-One-Out Method
 
 The leave-one-out method cross-validation can be seen as a special case of the k-fold method cross-validation. Here k is equal to n-1, with n beeing the toal amount of observations. The observations are split into a training set containing n-1 entries and a testing set consiting of only 1 entry. This method is extremely computationally expensive but a very precise error can be provided. A further variation is the leave-p-out cross validation where not one but p entries are left out and used for testing. The leave-p-out cross validation can be employed when computation time should be minimized. 
+
+The most computationally most expensive cross-validation method should be mentioned here for the sake of completeness. The exhaustive cross-validation method provides an error for eacht possible split of the observations-dataset. It should obvious that such an approach is not an efficiently way to provide key figures for a model. 
