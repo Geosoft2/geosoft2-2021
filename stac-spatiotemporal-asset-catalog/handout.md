@@ -1,1 +1,1 @@
-@KatharinaGI
+GitHub username: @KatharinaGI
