@@ -29,7 +29,7 @@ whereby the larger set should be used for training and the smaller for testing. 
 
 ![alt text](https://github.com/xcomagent95/geosoft2-2021/blob/main/Cross-validation/gfx/hold_out_1.jpg)
 
-There is a special hold-out method for dealing with problems regarding machine learning. In this special case the trainig set is further divided into two disjunct sets. The training set is still used to train the model while the newly created validation set is used to tune the hyper-parameters (parameters whose values are used to control the learning process).
+There is a special hold-out method for dealing with problems regarding machine learning. In this special case the trainig-set is further divided into two disjunct sets. The training-set is still used to train the model while the validation-set is used to tune the hyper-parameters (parameters whose values are used to control the learning process).
 The testing-set is still used to derive and error for the model.
 
 ![alt text](https://github.com/xcomagent95/geosoft2-2021/blob/main/Cross-validation/gfx/hold_out_2.jpg)
