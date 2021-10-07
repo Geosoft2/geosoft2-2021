@@ -8,4 +8,5 @@
 * viele nichtparametrische Algorithmen für ML enthalten Techniken, um das Erkennen der Details zu begrenzen
 * Begrenzungen können nach dem Lernen von Details stattfinden, z.B. Löschen bereits gelernter Details
 * [Reference](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/)
-### 
+### Cross Validation:
+* [github Repo of Alexander](https://github.com/xcomagent95/geosoft2-2021)
