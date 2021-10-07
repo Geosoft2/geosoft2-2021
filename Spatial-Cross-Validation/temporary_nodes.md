@@ -10,3 +10,6 @@
 * [Reference](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/)
 ### Cross Validation:
 * [github Repo of Alexander](https://github.com/xcomagent95/geosoft2-2021)
+### Autokorrelation:
+* ("Selbstkorrelation") Funktion/Daten korreliert(/-en) mit sich selbst (zu einem früheren Zeitpunkt)
+* [Reference](https://de.wikipedia.org/wiki/Autokorrelation)
