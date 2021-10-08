@@ -44,6 +44,8 @@ There are three special cases of the k-fold cross-validation. The repeated k-fol
 
 The stratified k-fold cross-validation can deal with problems which are the result of labeled data. In a labeld datasets we can provide each observation with a certain class. The classes can be of equal size or have different sizes. It can happen that the observations are spilt in a way that a certain class is not part of a training-set which will result in higher errors if the class is part of the testing set. To avoid this probelm the stratified cross-validation splits the observations into the labeld classes. Each class gets then spilt according to the selected fold (5, 10, etc.). Each now provides one subset for testing and the remaining for training purposes. In doing so each class is representet in training- and testing-dataset. The ratio between the classes is the same for source-, training- and testing-datset.
 
+![alt text](https://github.com/xcomagent95/geosoft2-2021/blob/main/Cross-validation/gfx/k_fold_2.jpg)
+
 ### Leave-One-Out Method
 
 The leave-one-out method cross-validation can be seen as a special case of the k-fold method cross-validation. Here k is equal to n-1, with n beeing the toal amount of observations. The observations are split into a training set containing n-1 entries and a testing set consiting of only 1 entry. This method is extremely computationally expensive but a very precise error can be provided. A further variation is the leave-p-out cross validation where not one but p entries are left out and used for testing. The leave-p-out cross validation can be employed when computation time should be minimized. 
