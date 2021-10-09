@@ -74,9 +74,9 @@ Bereitstellung von Software z.B. in folgenden Bereichen:
 
 ## Quellen
 
-- https://searchaws.techtarget.com/definition/Amazon-Web-Services
-- https://aws.amazon.com/de/
-- https://de.wikipedia.org/wiki/Platform_as_a_Service
-- https://www.cloudcomputing-insider.de/was-ist-infrastructure-as-a-service-a-605071/
-- https://www.computerwoche.de/a/was-ist-software-as-a-service,3332266
-- https://www.sog.de/content/uploads/Cloud-Varianten-IaaS-PaaS-Saas.jpg
+- <https://searchaws.techtarget.com/definition/Amazon-Web-Services>
+- <https://aws.amazon.com/de/>
+- <https://de.wikipedia.org/wiki/Platform_as_a_Service>
+- <https://www.cloudcomputing-insider.de/was-ist-infrastructure-as-a-service-a-605071/>
+- <https://www.computerwoche.de/a/was-ist-software-as-a-service,3332266>
+- <https://www.sog.de/content/uploads/Cloud-Varianten-IaaS-PaaS-Saas.jpg>
