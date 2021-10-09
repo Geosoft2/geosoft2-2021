@@ -20,6 +20,9 @@
    * Umgehung dieses Problems durch "räumliche Partitionierung" -> Beobachtungen werden in räumlich unzusammenhängende Teilmengen aufgeteilt
    * "räumliche Partition" ist (praktisch) einziger Unterschied von räumlicher Kreuzvalidierung zu herkömmlicher Kreuzvalidierung
    * räumliche Kreuzvalidierung führt zu einer verzerrungsreduzierten Bewertung der Vorhersageleistung eines Modells -> Vermeidung von Overfitting (Überanpassung)
+      > ### Beispiel:
+      > #### Macht es Sinn, für die Validierung eines Modells Pixel/Orte anzuschauen, die direkt benachbart zu denen sind, auf denen das Modell traininiert wurde? (vor allem, wenn der zu analysierende Prozess starke räumliche Autokorrelation aufweist)?
+      > Nein, da durch Toblers First Law of Geography die Gefahr der "Sneak Preview" entsteht. Der Trainingsdatensatz enthält Informationen, die er eigentlich nicht erhalten sollte und erschafft dadurch ein verfälschtes Ergebnis, was die Validierung des Modells erschwert. Hier würde räumliche Partitionierung die Validierung des Modells vereinfachen, da die starke räumliche Autokorrelation des zu analysierenden Prozesses entsprechend umgangen wird. 
 
 
 
