@@ -1,7 +1,7 @@
 # **Amazon Web Services**
 
-Issue: #7
-Authors: @JanSeemann92, @fbruc03
+Issue: [#7](<https://github.com/Geosoft2/geosoft2-2021/issues/7>)  
+Authors: [@JanSeemann92](https://github.com/JanSeemann92), [@fbruc03](https://github.com/fbruc03)
 
 ## _**Was ist AWS?**_
 
