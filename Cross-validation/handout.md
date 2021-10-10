@@ -36,7 +36,7 @@ The testing-set is still used to derive and error for the model.
 
 ### K-Fold Method
 
-The k-fold method cross validation is am more complex approach. The observations are split into k, equally sized subsets. K can be choosen arbitrarily (but has to be >= 2). 5-fold or 10-fold cross-validations are commonly used. Each Subset is used once as the testing set and k-1 times as a training set. An error as calculated for each iteration. The overall error is the mean of these errors. This way the entire set of observations is used to train and test the model and no valuable information is lost and the selection bias is reduced significantly. It is however still possible to split the observations-dataset unfavorably. The computation cost however is also higher and depends on the amount of observations and the choosen value for k.
+The k-fold method cross validation is a more complex approach. The observations are split into k, equally sized subsets. K can be choosen arbitrarily (but has to be >= 2). 5-fold or 10-fold cross-validations are commonly used. Each Subset is used once as the testing set and k-1 times as a training set. An error as calculated for each iteration. The overall error is the mean of these errors. This way the entire set of observations is used to train and test the model and no valuable information is lost and the selection bias is reduced significantly. It is however still possible to split the observations-dataset unfavorably. The computation cost however is also higher and depends on the amount of observations and the choosen value for k.
 
 ![alt text](https://github.com/xcomagent95/geosoft2-2021/blob/main/Cross-validation/gfx/k_fold_1.jpg)
 
