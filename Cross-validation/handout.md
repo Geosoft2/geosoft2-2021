@@ -25,7 +25,7 @@ There are diffrent methods to perform a cross-validation. Some well-known ones a
 
 The hold-out method cross-validation is the simplest approach mentioned here (it is sometime called simple validation). The observations are simply split randomly into two  disjointed sets.
 One set is used to train the model and the other to test the trained model. Typical ratios for splitting the observations are 60:40 or 80:20 
-whereby the larger set should be used for training and the smaller for testing. A serious limitation of this method is that the error found can be highly dependend on the observation included in the training or testing set (selection bias). It is also not possible to use the entire datset for training or testing purposes and valuable information can be lost.
+whereby the larger set should be used for training and the smaller for testing. A serious limitation of this method is that the error found can be highly dependend on the observation included in the training or testing set (selection bias). It is also not possible to use the entire dataset for training or testing purposes and valuable information can be lost.
 
 ![alt text](https://github.com/xcomagent95/geosoft2-2021/blob/main/Cross-validation/gfx/hold_out_1.jpg)
 
