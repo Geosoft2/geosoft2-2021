@@ -72,6 +72,10 @@ Bereitstellung von Software z.B. in folgenden Bereichen:
 
 ## Processing (spatial) data
 
+###Serverless GIS
+![Serverless GIS](serverlessGIS.png)
+
+
 ## Quellen
 
 - <https://searchaws.techtarget.com/definition/Amazon-Web-Services>
@@ -80,3 +84,6 @@ Bereitstellung von Software z.B. in folgenden Bereichen:
 - <https://www.cloudcomputing-insider.de/was-ist-infrastructure-as-a-service-a-605071/>
 - <https://www.computerwoche.de/a/was-ist-software-as-a-service,3332266>
 - <https://www.sog.de/content/uploads/Cloud-Varianten-IaaS-PaaS-Saas.jpg>
+- <https://enterprise.arcgis.com/de/server/latest/cloud/amazon/geodatabases-and-arcgis-server-on-aws.htm>
+- <https://aws.amazon.com/de/blogs/publicsector/serverless-gis-amazon-s3-open-data-arcgis/>
+- <https://enterprise.arcgis.com/de/server/latest/cloud/amazon/GUID-B075B600-08B2-4DEE-985C-B1AB12928A01-web.png>
