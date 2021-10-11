@@ -84,11 +84,11 @@ Verschiedene Services von AWS lassen sich gewinnbringend zur Verabeitung von Geo
 
 ### Serverless GIS
 
-AWS ermöglicht den Betrieb von ArcGIS Web-Applikationen ohne eigenen ArcGIS Server betreiben zu müssen.
+AWS ermöglicht den Betrieb von ArcGIS Web-Applikationen ohne einen eigenen ArcGIS Server betreiben zu müssen.
 
 ![Serverless GIS](serverlessGIS.png)
 
-## Earth auf AWS
+### Earth auf AWS
 
 AWS stellt über das Registry of Open Data verschiedene Geodaten samt Use Case Beispielen bereit.
 
