@@ -4,7 +4,7 @@
 
 ## Summary
 
-A microservice is a architectural pattern to structure web applications into smaller services which are doing a specific job. These microservices communicate over a network to each other.
+A microservice is a architectural pattern to structure web applications into smaller pieces or modules which are doing a specific job. These microservices communicate over a network to each other.
 
 ## Basic example
 
@@ -33,7 +33,7 @@ Handles requests of the user and knows how to address the relevant microservice.
 
 ### Databases
 
-Each microservice uses it's own database (DB) or an encapsulated instance on a database system.
+Each microservice uses it's own database (DB) or an encapsulated application/instance on a database system.
 
 ## Motivation
 
@@ -63,11 +63,15 @@ defined here.
 
 - The communication between services can be quickly complex
 - Lack of documentation can lead to problems when using other services
-- TBD...
+- Code reusability could drop significantly because independent teams may use different technologies
+- Can significantly increase the overhead of deployment and management of multiple microservices
 
 ## Alternatives
+A widely used architecture is the monolith structure. Mostly the fastest and easiest way to start with a web application. The business logic, data layer and the user interface is combined in one application.
 
-Monolith, Serverless
+<img src="./monolith-example.png" width="380px">
+
+Both options, the monolith or microsercive architecture could be combined with serverless. With this technique software code could be run without maintaining a server and could decrease the costs.
 
 ## Unresolved questions
 
@@ -77,5 +81,6 @@ TBD?
 ## Resources
 
 - https://www.redhat.com/en/topics/microservices/what-are-microservices
-- https://aws.amazon.com/microservices/
-- https://docs.nestjs.com/microservices/basics
+- https://aws.amazon.com/microservices2
+- https://docs.nestjs.com/microservices/basic3
+- https://www.redhat.com/de/topics/cloud-native-apps/what-is-serverless4
