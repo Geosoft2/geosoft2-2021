@@ -7,6 +7,11 @@
 
 
 
+## Zusammenfassung
+Spatial Cross Validation ist eine Kreuzvalidierungsmethode um mit räumlicher Partition die Effekte von Toblers First Law of Geography zu verringern. Meist wird der K Means Algorithmus genutzt um die Daten zu unterteilen. Der Effekt, der umgangen werden soll, wird auch als "Sneak Preview" bezeichnet.
+Meistens wird eine Verschachtelung von Cross Validation mit dem K Means Algorithmus genutzt.
+
+
 ## 1. Was ist räumliche Kreuzvalidierung (Spatial Cross Validation)?
    * Idee: Datensatz wird wiederholt in einen Trainings- und einen Testsatz aufgeteilt
    * Trainingsdaten werden zur Anpassung an ein Modell verwendet, welches dann auf den Testsatz angewendet wird
