@@ -5,7 +5,7 @@ Authors: [@JanSeemann92](https://github.com/JanSeemann92), [@fbruc03](https://gi
 
 ## _**Was ist AWS?**_
 
-Amazon Web Services (AWS) ist ein Tochterunternehmen von Amazon, welches auf Cloud-Dienstleistungen spezialisiert ist. AWS stellt seinen Kunden unter anderem Rechenleistung, Speicheroptionen und Anwendungen zur Verfügung um diesen so den Aufbau anspruchsvoller Anwendungen zu erleichtern.
+Amazon Web Services (AWS) ist ein Tochterunternehmen von Amazon, welches auf Cloud-Dienstleistungen spezialisiert ist. AWS stellt seinen Kunden unter anderem Rechenleistung, Speicheroptionen und Anwendungen zur Verfügung, um diesen so den Aufbau anspruchsvoller Anwendungen zu erleichtern.
 Amazon Web Services gilt heute als führender Anbieter im Bereich des Cloud-Computings.
 
 ---
@@ -72,6 +72,36 @@ Bereitstellung von Software z.B. in folgenden Bereichen:
 
 ## Processing (spatial) data
 
+### Handling Geospatial Data in AWS
+
+Verschiedene Services von AWS lassen sich gewinnbringend zur Verabeitung von Geodaten nutzen:
+
+- RDS und Aurora (relationale Datenbanksysteme)
+- Redshift (Data Warehouse)
+- Athena (Serverless Interactive Query Service)
+- Quicksight (Visualisierungstool)
+- Amazon Location Service
+
+### Serverless GIS
+
+AWS ermöglicht den Betrieb von ArcGIS Web-Applikationen ohne einen eigenen ArcGIS Server betreiben zu müssen.
+
+![Serverless GIS](serverlessGIS.png)
+
+### Earth auf AWS
+
+AWS stellt über das Registry of Open Data verschiedene Geodaten samt Use Case Beispielen bereit.
+
+Beispiele sind:
+
+- Sentinel 2
+- NEXRAD
+- SpaceNet
+- CBERS
+- Department of Energy's Open Energy Data Initiative
+- OpenAQ
+
+
 ## Quellen
 
 - <https://searchaws.techtarget.com/definition/Amazon-Web-Services>
@@ -80,3 +110,9 @@ Bereitstellung von Software z.B. in folgenden Bereichen:
 - <https://www.cloudcomputing-insider.de/was-ist-infrastructure-as-a-service-a-605071/>
 - <https://www.computerwoche.de/a/was-ist-software-as-a-service,3332266>
 - <https://www.sog.de/content/uploads/Cloud-Varianten-IaaS-PaaS-Saas.jpg>
+- <https://towardsdatascience.com/handling-geospatial-data-in-aws-a82ae364f80c>
+- <https://enterprise.arcgis.com/de/server/latest/cloud/amazon/geodatabases-and-arcgis-server-on-aws.htm>
+- <https://aws.amazon.com/de/blogs/publicsector/serverless-gis-amazon-s3-open-data-arcgis/>
+- <https://enterprise.arcgis.com/de/server/latest/cloud/amazon/GUID-B075B600-08B2-4DEE-985C-B1AB12928A01-web.png>
+- <https://aws.amazon.com/de/earth/?nc1=h_ls>
+- <https://registry.opendata.aws/?search=tags:gis,earth%20observation,events,mapping,meteorological,environmental,transportation>
