@@ -4,12 +4,6 @@ Student: [@AntoniaJost](https://github.com/AntoniaJost),
 
 Student: [@TobiasBrand-GI](https://github.com/TobiasBrand-GI)
 
-git tag <handout-submission-TobiasBrand-AntoniaJost>
-
-*To-Do:*
-- [ ] add git tag handout-submussion-AntoniaJost -> push it to your fork
-- [ ] send pull request
-
 ## Was ist Docker und warum nutzen wir es?
 #### Was?
 - Ermöglicht es, Software in Paketen, sog. **Containern** zu verpacken
