@@ -71,8 +71,8 @@ EXPOSE 3000
 CMD node server.js
 ```
 
-## docker-compose.yml
-```Dockerfile
+## Docker Compose
+```
 # Version der genutzten Syntax
 version: "3"
 
