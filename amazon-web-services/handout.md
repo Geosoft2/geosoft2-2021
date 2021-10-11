@@ -72,6 +72,16 @@ Bereitstellung von Software z.B. in folgenden Bereichen:
 
 ## Processing (spatial) data
 
+## Handling Geospatial Data in AWS
+
+Verschiedene Services von AWS lassen sich gewinnbringend zur Verabeitung von Geodaten nutzen:
+
+- RDS und Aurora (relationale Datenbanksysteme)
+- Redshift (Data Warehouse)
+- Athena (Serverless Interactive Query Service)
+- Quicksight (Visualisierungstool)
+- Amazon Location Service
+
 ### Serverless GIS
 
 AWS ermöglicht den Betrieb von ArcGIS Web-Applikationen ohne eigenen ArcGIS Server betreiben zu müssen.
@@ -100,6 +110,7 @@ Beispiele sind:
 - <https://www.cloudcomputing-insider.de/was-ist-infrastructure-as-a-service-a-605071/>
 - <https://www.computerwoche.de/a/was-ist-software-as-a-service,3332266>
 - <https://www.sog.de/content/uploads/Cloud-Varianten-IaaS-PaaS-Saas.jpg>
+- <https://towardsdatascience.com/handling-geospatial-data-in-aws-a82ae364f80c>
 - <https://enterprise.arcgis.com/de/server/latest/cloud/amazon/geodatabases-and-arcgis-server-on-aws.htm>
 - <https://aws.amazon.com/de/blogs/publicsector/serverless-gis-amazon-s3-open-data-arcgis/>
 - <https://enterprise.arcgis.com/de/server/latest/cloud/amazon/GUID-B075B600-08B2-4DEE-985C-B1AB12928A01-web.png>
