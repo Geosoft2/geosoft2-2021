@@ -72,7 +72,7 @@ Bereitstellung von Software z.B. in folgenden Bereichen:
 
 ## Processing (spatial) data
 
-## Handling Geospatial Data in AWS
+### Handling Geospatial Data in AWS
 
 Verschiedene Services von AWS lassen sich gewinnbringend zur Verabeitung von Geodaten nutzen:
 
