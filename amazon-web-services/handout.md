@@ -72,7 +72,7 @@ Bereitstellung von Software z.B. in folgenden Bereichen:
 
 ## Processing (spatial) data
 
-###Serverless GIS
+### Serverless GIS
 ![Serverless GIS](serverlessGIS.png)
 
 
