@@ -4,7 +4,7 @@ Student: [@AntoniaJost](https://github.com/AntoniaJost),
 
 Student: [@TobiasBrand-GI](https://github.com/TobiasBrand-GI)
 
-§ git tag <handout-submission-TobiasBrand-AntoniaJost>
+$ git tag <handout-submission-TobiasBrand-AntoniaJost>
 
 *To-Do:*
 - [ ] add git tag handout-submussion-AntoniaJost -> push it to your fork
