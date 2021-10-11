@@ -1,14 +1,17 @@
 [comment]: <> (Start Date: 2021-10-01)
 [comment]: <> (Issue: #4)
 [comment]: <> (Authors: @OTI2020, @Timo12345689)
+> Authors: @OTI2020, @Timo12345689 
 
 # Spatial Cross Validation (räumliche Kreuzvalidierung)
+
 
 
 ## 1. Was ist räumliche Kreuzvalidierung (Spatial Cross Validation)?
    * Idee: Datensatz wird wiederholt in einen Trainings- und einen Testsatz aufgeteilt
    * Trainingsdaten werden zur Anpassung an ein Modell verwendet, welches dann auf den Testsatz angewendet wird
    * Vergleich der vorhergesagten Werte mit den bekannten Antwortwerten (aus dem Testdatensatz) -> Bewertung möglich, ob Modell passt (Ziel ist es, die Fähigkeit des Modells Werte (aus unabhängigen Daten) vorherzusagen, zu erfassen)  
+   * Unterschied zu herkömmlicher Kreuzvalidierung: räumliche Partitionierung als Möglichkeit Toblers First Law of Geography zu umgehen
 
 
 
@@ -20,6 +23,8 @@
    * Umgehung dieses Problems durch "räumliche Partitionierung" -> Beobachtungen werden in räumlich unzusammenhängende Teilmengen aufgeteilt
    * "räumliche Partition" ist (praktisch) einziger Unterschied von räumlicher Kreuzvalidierung zu herkömmlicher Kreuzvalidierung
    * räumliche Kreuzvalidierung führt zu einer verzerrungsreduzierten Bewertung der Vorhersageleistung eines Modells -> Vermeidung von Overfitting (Überanpassung)
+
+   
       > ### Beispiel:
       > #### Macht es Sinn, für die Validierung eines Modells Pixel/Orte anzuschauen, die direkt benachbart zu denen sind, auf denen das Modell traininiert wurde? (vor allem, wenn der zu analysierende Prozess starke räumliche Autokorrelation aufweist)?
       > Nein, da durch Toblers First Law of Geography die Gefahr der "Sneak Preview" entsteht. Der Trainingsdatensatz enthält Informationen, die er eigentlich nicht erhalten sollte und erschafft dadurch ein verfälschtes Ergebnis, was die Validierung des Modells erschwert. Hier würde räumliche Partitionierung die Validierung des Modells vereinfachen, da die starke räumliche Autokorrelation des zu analysierenden Prozesses entsprechend umgangen wird. 
@@ -48,6 +53,11 @@
 ## Spatial Partioning im Vergleich zu Random Partitioning
 
    <img src="Vgl_partitionierungs_Methoden.png" alt="Räumliche Kreuzvalidierung im Vergleich zu herkömmlicher Kreuzvalidierung" width="600" heigth ="300"/>
+
+
+   * Sichtbar ist, dass bei Random Partitoning die Testdaten keinen räumlichen Zusammenhang haben
+   * Ändert sich auch bei weiteren Iterationen nicht
+   * Spatial Partitioning sorgt für einen räumlichen Zusammenhang der Testdaten und sorgt außerdem dafür, dass alle Daten je zu Test- und Trainingsdaten im Laufe der Gesamtiteration werden.
 
 
 ------------------------------------------------------------------------------------
