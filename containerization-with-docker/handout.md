@@ -37,9 +37,9 @@ Student: [@TobiasBrand-GI](https://github.com/TobiasBrand-GI)
 - Datenaustausch zwischen Containern möglich
 
 ## Ablauf
-![Bild zum Ablauf von Docker](https://github.com/AntoniaJost/geosoft2-2021/blob/main/containerization-with-docker/Docker%20Ablauf.jpg)
+![Bild zum Ablauf von Docker]<img src="https://github.com/AntoniaJost/geosoft2-2021/blob/main/containerization-with-docker/Docker%20Ablauf.jpg" alt="drawing" width="400" height="400"/>
 
-# entscheidende Ausdrücke:
+##### entscheidende Ausdrücke:
 - $ docker build –t name .
     - -t: tag -> vergibt Namen (name)
     - .: gibt Build-Kontext an -> da, wo Dockerfile liegt
