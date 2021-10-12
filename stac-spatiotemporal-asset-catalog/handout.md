@@ -118,7 +118,7 @@ https://stacspec.org/STAC-api.html
 
 ## STAC in action & STAC Tools
 
-Auf der Seite https://stacspec.org/ sind desweiteren Beispiel-STACs und hilfreiche Tools für die Anwendung von STAC zu finden:
+Auf der Seite https://stacspec.org/ sind des Weiteren verschiedene (laufende) Beispiel-STACs und hilfreiche Tools für die Anwendung von STAC zu finden:
 
 <img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_STACinAction.PNG" alt="drawing" width="380" height="200"/> <img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_STACTools.PNG" alt="drawing" width="380" height="200"/> 
 
