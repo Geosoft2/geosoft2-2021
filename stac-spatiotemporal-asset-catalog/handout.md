@@ -16,7 +16,7 @@ Informationsquelle: https://stacspec.org/
 
 - **Der SpatioTemporal Asset Catalog (STAC)** ist eine offene Spezifikation, die aus der Zusammenarbeit verschiedener Organisationen entstanden ist, um den Zugang zu sowie die Bereitstellung von Informationen über unseren Planeten zu verbessern 
 
-<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Logo.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)* <img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Supporters.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)*
+<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Logo.PNG" alt="drawing" width="360" height="200"/> <img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Supporters.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)*
 
 - Das Ziel von STAC: über eine **gemeinsame Sprache** zur Beschreibung von Geodaten einen globalen Index für alle Bilddaten (Satelliten-, Luft-, Drohnenbilder usw.), abgeleitete Datenprodukte und alternative Geodatenerfassungen (LiDAR, SAR, Full Motion Video, Hyperspektralaufnahmen usw.) zu erstellen. 
    * **JSON-Format** als kleinsten gemeinsamen Nenner, um alle relevanten Daten über die Erde zu umhüllen. 
