@@ -12,8 +12,8 @@ Informationsquelle: https://stacspec.org/
 
 ## Was ist STAC?
 
-### Die STAC-Spezifikation lebt zur einfachen Zugänglichkeit als leicht lesbare Markdown-Seiten auf Github, für mehr Informationen klicke also hier: https://github.com/radiantearth/stac-spec !
+##### Die STAC-Spezifikation lebt zur einfachen Zugänglichkeit als leicht lesbare Markdown-Seiten auf Github, für mehr Informationen klicke also hier: https://github.com/radiantearth/stac-spec !
 
 - Der SpatioTemporal Asset Catalog (STAC) ist eine offene Spezifikation, die aus der Zusammenarbeit verschiedener Organisationen entstanden ist, um den Zugang zu sowie die Bereitstellung von Informationen über unseren Planeten zu verbessern 
 
-<img src="" alt="drawing" width="600" height="400"/
+<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Supporters.PNG" alt="drawing" width="600" height="400"/
