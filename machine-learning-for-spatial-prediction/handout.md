@@ -72,7 +72,7 @@ Machine learning approaches are divided into three general types, depending on t
 
 ![ClassVsRegress Tree example](/machine-learning-for-spatial-prediction/pictures/ClassVsRegress.png)
 
-+ we only applied the algorithms on classification examples, because it easier to understand at first
+> we only applied the algorithms on classification examples, because it easier to understand at first
 
   
   
