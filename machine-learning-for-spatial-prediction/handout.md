@@ -89,6 +89,7 @@ Example Decision Tree in Remote Sensing:
 ![Decision Tree example](/machine-learning-for-spatial-prediction/pictures/DecisionTree.png)
 
 
+
 #### Random Forest
 
 The Random Forest is a supervised machine learning algorithm that is used for classification and regression. It operates by constructing multiple Decision Trees during training phase (machine learning process).
@@ -118,3 +119,13 @@ The decision of the majority of the trees is chosen as the final decision of the
 ##### How does Random Forst work?
 
 ![Random forest example](/machine-learning-for-spatial-prediction/pictures/RandomForest.png)
+
+
+#### SVM - Support Vector Machine
+
+* Classification method
+* Each data item gets plotted in n-dimensional space (where n is number of features you have)
+* The points are called support vectors
+* The value of each feature is the value of a particular coordinate
+* Find a line that splits the data between the two differently classified groups of data
+    * The closest point of each group must be farthest away from the line/classifier (see below)
