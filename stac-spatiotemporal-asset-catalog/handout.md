@@ -38,10 +38,10 @@ Informationsquelle: https://stacspec.org/
   * Darüber hinaus standardisiert STAC Metadatenfelder, Namenskonventionen, Abfragesprache und Katalogstruktur. 
 -	Als Entwickler haben Sie zwei Möglichkeiten, STAC zu implementieren: 
   * als statischen STAC 
-   * unglaublich einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden, die die STAC-API generieren 
+        * unglaublich einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden, die die STAC-API generieren 
   oder
   * über die STAC-API 
-   * ermöglicht die Abfrage von Daten in einer Standardsprache und die Rückgabe einer Teilmenge des Katalogs
+        * ermöglicht die Abfrage von Daten in einer Standardsprache und die Rückgabe einer Teilmenge des Katalogs
 
 -> Beide Arten unterstützen die Erstellung einer Katalog-Webseite mit STAC-kompatiblen Artikeln. 
   * Diese Webseite kann eine interaktive Landing Page für die einzelnen Daten sein und lässt sich leicht so konfigurieren, dass sie von einer Suchmaschine gecrawlt werden kann. 
