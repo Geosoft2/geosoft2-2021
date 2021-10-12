@@ -1,1 +1,2 @@
-GitHub username: @KatharinaGI
+# STAC: spatiotemporal asset catalog
+Source: https://stacspec.org/
