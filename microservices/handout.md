@@ -44,12 +44,12 @@ Each microservice uses it's own database (DB) or an encapsulated application/ins
 - Distributed development
   - Developers are able to choose their language and technology
   - Independently teams which are working on different services
+  - Easy to try out new ideas and roll back if something doesn't work
 - Resilient
   - Independent services do not impact each other
   - Better testability of less complex services
 - Easy Deployment
-  - Easy to try out new ideas and roll back if something doesn't work
-  - Accelerate new features
+  - More modular and smaller than traditional applications
 
 ## Detailed design
 
