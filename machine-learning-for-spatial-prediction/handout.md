@@ -128,3 +128,6 @@ The decision of the majority of the trees is chosen as the final decision of the
 * The value of each feature is the value of a particular coordinate
 * Find a line that splits the data between the two differently classified groups of data
     * The closest point of each group must be farthest away from the line/classifier (see below)
+
+![Random forest example](/machine-learning-for-spatial-prediction/pictures/SupportVectorMachine.png)
+---------
