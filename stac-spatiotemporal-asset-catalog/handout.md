@@ -16,7 +16,7 @@ Informationsquelle: https://stacspec.org/
 
 - **Der SpatioTemporal Asset Catalog (STAC)** ist eine offene Spezifikation, die aus der Zusammenarbeit verschiedener Organisationen entstanden ist, um den Zugang zu sowie die Bereitstellung von Informationen über unseren Planeten zu verbessern 
 
-<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Supporters.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)*
+<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Logo.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)* <img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Supporters.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)*
 
 - Das Ziel von STAC: über eine **gemeinsame Sprache** zur Beschreibung von Geodaten einen globalen Index für alle Bilddaten (Satelliten-, Luft-, Drohnenbilder usw.), abgeleitete Datenprodukte und alternative Geodatenerfassungen (LiDAR, SAR, Full Motion Video, Hyperspektralaufnahmen usw.) zu erstellen. 
    * **JSON-Format** als kleinsten gemeinsamen Nenner, um alle relevanten Daten über die Erde zu umhüllen. 
@@ -66,8 +66,6 @@ einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden,
   * STAC-Items sind so konzipiert, dass sie leicht in HTML umgewandelt werden können, das von Menschen durchstöbert und von Suchmaschinen gecrawlt werden kann -> Integration in das Web möglich 
 
 ## -> Zukunftsvisionen von STAC
-
-<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Logo.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)*
 
 - Die Verfolgung der Herkunft bis zur Quelle ist ein Traum der meisten Nutzer von Geodaten: die Verlagerung in die Cloud bietet die Möglichkeit, diesen Traum zu verwirklichen. -	Während jeder mit Google und der Möglichkeit, jede Webseite auf der Welt zu durchsuchen, vertraut ist, ist dies für Geodaten noch nicht möglich.
   * Die Vision des STAC für die globale Suche ist nicht, Suchanfragen an jeden STAC-Server zu senden, sondern einfach jedes Element "web-crawlable" zu machen.
