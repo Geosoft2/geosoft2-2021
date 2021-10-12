@@ -1,2 +1,3 @@
 # STAC: spatiotemporal asset catalog
-Source: https://stacspec.org/
+Bearbeitet von: Katharina Kaufmann @KatharinaGI
+Informationsquelle: https://stacspec.org/
