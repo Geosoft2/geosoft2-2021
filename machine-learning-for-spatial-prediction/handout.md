@@ -72,8 +72,7 @@ we only applied the algorithms on classification examples, because it easier to 
   
 
 ### Supervised algorithms in remote sensing
-
-  
+-------------
 
 #### Decision Tree
 
@@ -87,7 +86,7 @@ The binary tree is the simplest version of a decision tree (splits the data into
 Example Decision Tree in Remote Sensing:
 
 ![Decision Tree example](/machine-learning-for-spatial-prediction/pictures/DecisionTree.png)
-
+----------
 
 
 #### Random Forest
@@ -122,6 +121,7 @@ The decision of the majority of the trees is chosen as the final decision of the
 
 
 #### SVM - Support Vector Machine
+-----
 
 * Classification method
 * Each data item gets plotted in n-dimensional space (where n is number of features you have)
