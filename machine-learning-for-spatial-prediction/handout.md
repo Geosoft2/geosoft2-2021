@@ -72,8 +72,9 @@ we only applied the algorithms on classification examples, because it easier to 
   
 
 ### Supervised algorithms in remote sensing
--------------
 
+
+-------
 #### Decision Tree
 
 * classification and regression method
@@ -118,10 +119,9 @@ The decision of the majority of the trees is chosen as the final decision of the
 ##### How does Random Forst work?
 
 ![Random forest example](/machine-learning-for-spatial-prediction/pictures/RandomForest.png)
-
+---------
 
 #### SVM - Support Vector Machine
------
 
 * Classification method
 * Each data item gets plotted in n-dimensional space (where n is number of features you have)
