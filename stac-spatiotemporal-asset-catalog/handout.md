@@ -44,6 +44,10 @@ Informationsquelle: https://stacspec.org/
   * Beide Arten unterstützen die Erstellung einer Katalog-Webseite mit STAC-kompatiblen Artikeln: kann interaktive Landing Page für die einzelnen Daten sein und lässt sich leicht so konfigurieren, dass sie von einer **Suchmaschine gecrawlt** werden kann. 
 - Von Entwicklern für Entwickler entwickelt, sodass die Implementierung in der Regel einfach ist, und es ein wachsendes System von Tools und Bibliotheken gibt, die verwendet werden können.
 
+### STAC ist für Datennutzer
+
+- Nutzer von räumlich-zeitlichen Datensätzen müssen oft eigene Pipelines für die Aufnahme von Sammlungen in ihr System erstellen, Sammlungen werden mit unterschiedlich detaillierten Metadaten und über verschiedene Bereitstellungsmechanismen geliefert
+=> die Notwendigkeit maßgeschneiderter Arbeitsabläufe (Aufwand) beseitigen
 
 
 
