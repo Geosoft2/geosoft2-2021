@@ -72,6 +72,14 @@ einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden,
   * Herkunfts-Links zwischen Katalogen tragen zur Auffindbarkeit bei, indem sie das Ranking einer Seite in den Algorithmen der Suchmaschinen erhöhen. Stabiles HTML bedeutet mehr Links zu diesen Seiten, was sie in den Suchergebnissen weiter nach oben bringt
 - Förderung der Konversation über Geostandards und Prozesse, Voranbringen des Standards im Bereich Geodaten als Ganzes -> Zusammenarbeit
 
+## Kernkomponenten von STAC
+
+- Spezifikation erscheint zunächst recht „leicht“: flexibel und erweiterbar: verschiedene Bereiche und Werkzeuge leicht zu eigen machen:
+* Der Schlüssel ist die Flexibilität und Erweiterbarkeit von JSON 
+*	JSON-Validierung unterstützt Vielzahl von Datentypen und Implementierungen durch das Hinzufügen weiterer Felder 
+*	Erweiterungen (Gemeinschaft arbeitet an weiteren Details zu bestimmten Datentypen und neuen Funktionen)
+1.	Mit einer "Reifeklassifizierung" versehen, die andere wissen lässt, wie wahrscheinlich es ist, dass sich die Erweiterung in Zukunft ändert.
+2.	Ziel: Gemeinschaften in die Lage versetzen, zusammenzuarbeiten, um einen "ausreichend guten" Satz gemeinsamer Metadaten zu finden.
 
 
 
