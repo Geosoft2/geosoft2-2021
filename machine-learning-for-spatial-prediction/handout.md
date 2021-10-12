@@ -141,3 +141,26 @@ The decision of the majority of the trees is chosen as the final decision of the
 * kNN is computationally expensive
 
 ![kNN example](/machine-learning-for-spatial-prediction/pictures/kNN.png)
+-------
+
+
+### Unsupervised algorithms in remote sensing
+-------
+
+#### k-means
+
+* method to cluster objects/data points
+* tries to find homogeneous subgroups within the data
+* similarity measure: distance (euklidean- or correlation based)
+
+##### How k-Means works?
+
+1.	Specify the number of clusters
+2.	Set centroids by randomly selecting k data points for the centroids without replacement
+3.	Iterate the following steps until there is no more change to the centroids:
+    a.	Compute the sum of the squared distance between data points and all centroids.
+    b.	Assign each data point to the closest cluster (centroid).
+    c.	Compute the centroids for the clusters by taking the average of the all data points that belong to each cluster
+
+![kMeans example](/machine-learning-for-spatial-prediction/pictures/kMeans.png)
+-------
