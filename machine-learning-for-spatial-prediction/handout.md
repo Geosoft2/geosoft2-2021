@@ -66,6 +66,10 @@ Machine learning approaches are divided into three general types, depending on t
 
 ### Classification vs Regression
 
+#### Diference
+* Regression algorithms are used to predict continuous values such as price, salary, age, etc.
++ Classification algorithms are used to predict/Classify discrete values such as Male or Female, True or False, Spam or Not Spam, etc.
+
 we only applied the algorithms on classification examples, because it easier to understand at first
 
   
