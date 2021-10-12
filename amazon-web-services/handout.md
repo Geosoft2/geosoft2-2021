@@ -15,11 +15,11 @@ Amazon Web Services gilt heute als führender Anbieter im Bereich des Cloud-Comp
 ### _**Was ist Cloud Computing?**_
 
 Als Cloud-Computing bezeichnet man die Nutzung von IT-Infrastrukturen und Dienstleistungen über ein Netzwerk (z.B. das Internet). Hierbei werden diese Daten oder Anwendungen nicht vor Ort auf dem lokalen Rechner gespeichert, sonder an einem beliebigen anderen Ort der oft mit einer Cloud illustriert wird.
-Diese sogenannten Services sind On-Demand verfügbar und jederzeit skalierbar. Für Unternehmen entfallen somit große Vorabkosten für die Organisation der nötigen Infrastruktur.
+Diese sogenannten Services sind On-Demand verfügbar und jederzeit skalierbar. Für Unternehmen entfallen somit große Vorabkosten für die Beschaffung und Organisation der nötigen Infrastruktur.
 
 ---
 
-### **Vorteile von Cloud-Compting**
+### **Vorteile von Cloud-Computing**
 
 - **Kapitalkosten werden durch variable Kosten ersetzt**
   - Kein eigenes Rechenzentrum oder Server nötig
@@ -29,12 +29,16 @@ Diese sogenannten Services sind On-Demand verfügbar und jederzeit skalierbar. F
   - Keine Zeit mit Bereitstellung und Wartung der eigenen Infrastruktur verschwenden
 - **Ortsunabhängiger Zugriff**
   - Zugriff auf gewünschte Services ist nicht an den Arbeitsplatz gebunden
+- **viele geographische Standorte**
+  - 25 aktive Regionen, 81 "Availability Zones"
+
+![AWS Regionen](aws-regions.png)
 
 ---
 
 ## **Cloud-Computing-Modelle**
 
-### Infrastructure as a Service (IaaS) - Cloud Infrastruktur
+### **Infrastructure as a Service (IaaS) - Cloud Infrastruktur**
 
 Bereitstellung von Rechenzentrumsinfrastruktur z.B.:
 
@@ -43,28 +47,24 @@ Bereitstellung von Rechenzentrumsinfrastruktur z.B.:
 - Speicherplatz
 - Systeme zur Archivierung und Sicherung von Daten
 
-### Platform as a Service (PaaS) - Cloud Plattformen
+### **Platform as a Service (PaaS) - Cloud Plattformen**
 
 Entwicklungsumgebung für die Entwicklung von neuen Anwendungen z.B.:
 
 - Middleware
 - Entwicklungstools
-- BI-Dienste (Business Intelligence)
 - Datenbankverwaltungssysteme
 
-### Software as a Service (SaaS) - Cloud Anwendungen
+### **Software as a Service (SaaS) - Cloud Anwendungen**
 
 Bereitstellung von Software z.B. in folgenden Bereichen:
 
 - E-Mail
 - Collaboration Tools
-- Customer Relationship Management (CRM)
 - Gehaltsabrechnung
 - Verkaufs-, Personal- und Finanzmanagement
 - Datenbanken
-- Enterprise Resource Planning (ERP)
 - Content Management
-- Document Editing und Managment
 
 ![Cloud Services](Cloud-Computing-Services.jpg)
 
@@ -100,7 +100,6 @@ Beispiele sind:
 - CBERS
 - Department of Energy's Open Energy Data Initiative
 - OpenAQ
-
 
 ## Quellen
 
