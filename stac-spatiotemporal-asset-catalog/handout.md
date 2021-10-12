@@ -52,15 +52,15 @@ Informationsquelle: https://stacspec.org/
 
 ## Philosophie
 
-1. ##### Kleiner, flexibler Kern:
+1. #### *Kleiner, flexibler Kern:*
   * STAC soll einfach zu implementieren und an bestehende Implementierungen anpassbar sein. 
   * Die STAC-Validierung ermöglicht maximale Flexibilität, indem sie einfach das Vorhandensein von Schlüsselfeldern prüft und es ermöglicht, dass andere implementierungsspezifische Felder von STAC-Clients nach Bedarf genutzt werden können. 
   * Alle Teile von STAC sollten kleinteilig und lose gekoppelt sein, um eine agile Entwicklung zu ermöglichen.
-2. Entwicklung von Best Practices und Erweiterungen durch reale Nutzung
+2. #### *Entwicklung von Best Practices und Erweiterungen durch reale Nutzung:*
   * Während sich der STAC-Kern auf eine minimale Spezifikation konzentriert, werden kontinuierlich optionale Erweiterungen hinzugefügt, um die Interoperabilität und Nutzbarkeit der über STAC bereitgestellten Daten zu erhöhen. 
-3. Starke Verwendung von Links 
+3. #### *Starke Verwendung von Links:*
 * Links zwischen verschiedenen Elementen ermöglichen die Modellierung komplexer Beziehungen. 
-4. HTML-Darstellungen
+4. #### *HTML-Darstellungen*
   * Wichtig: Berücksichtigung des maschinenlesbaren JSON als auch des für den Menschen nutzbare HTML 
   * STAC-Items sind so konzipiert, dass sie leicht in HTML umgewandelt werden können, das von Menschen durchstöbert und von Suchmaschinen gecrawlt werden kann -> Integration in das Web möglich 
 
