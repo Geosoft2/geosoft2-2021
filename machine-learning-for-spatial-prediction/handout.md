@@ -129,5 +129,15 @@ The decision of the majority of the trees is chosen as the final decision of the
 * Find a line that splits the data between the two differently classified groups of data
     * The closest point of each group must be farthest away from the line/classifier (see below)
 
-![Random forest example](/machine-learning-for-spatial-prediction/pictures/SupportVectorMachine.png)
+![Support Vector Machine example](/machine-learning-for-spatial-prediction/pictures/SupportVectorMachine.png)
 ---------
+
+
+#### kNN (k-nearest neighbors)
+
+* Classification and regression method
+* New cases get classified by the majority vote of its k-nearest neighbors
+* Distance function can be Euclidean, Manhattan, Minkowski and Hamming distance.
+* kNN is computationally expensive
+
+![kNN example](/machine-learning-for-spatial-prediction/pictures/kNN.png)
