@@ -16,6 +16,6 @@ Informationsquelle: https://stacspec.org/
 
 - Der SpatioTemporal Asset Catalog (STAC) ist eine offene Spezifikation, die aus der Zusammenarbeit verschiedener Organisationen entstanden ist, um den Zugang zu sowie die Bereitstellung von Informationen über unseren Planeten zu verbessern 
 
-<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Supporters.PNG" alt="drawing" width="350" height="150"/> Bildquelle: https://stacspec.org/
+<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Supporters.PNG" alt="drawing" width="350" height="160"/> *Bildquelle: https://stacspec.org/ *
 
 
