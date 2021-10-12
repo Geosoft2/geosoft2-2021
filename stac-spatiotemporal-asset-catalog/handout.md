@@ -67,6 +67,8 @@ einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden,
 
 ## -> Zukunftsvisionen von STAC
 
+<img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Logo.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)*
+
 - Die Verfolgung der Herkunft bis zur Quelle ist ein Traum der meisten Nutzer von Geodaten: die Verlagerung in die Cloud bietet die Möglichkeit, diesen Traum zu verwirklichen. -	Während jeder mit Google und der Möglichkeit, jede Webseite auf der Welt zu durchsuchen, vertraut ist, ist dies für Geodaten noch nicht möglich.
   * Die Vision des STAC für die globale Suche ist nicht, Suchanfragen an jeden STAC-Server zu senden, sondern einfach jedes Element "web-crawlable" zu machen.
   * Herkunfts-Links zwischen Katalogen tragen zur Auffindbarkeit bei, indem sie das Ranking einer Seite in den Algorithmen der Suchmaschinen erhöhen. Stabiles HTML bedeutet mehr Links zu diesen Seiten, was sie in den Suchergebnissen weiter nach oben bringt
