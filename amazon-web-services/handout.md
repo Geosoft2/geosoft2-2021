@@ -26,9 +26,9 @@ Diese sogenannten Services sind On-Demand verfügbar und jederzeit skalierbar. F
 - **Skalierbar**
   - Werden weniger Resourcen verbraucht fallen auch weniger Kosten an
 - **Mehr Zeit für eigene Aufgaben**
-  - Keine Zeit mehr mit Bereitstellung und Wartung der eigenen Infrastruktur verschwenden
+  - Keine Zeit mit Bereitstellung und Wartung der eigenen Infrastruktur verschwenden
 - **Ortsunabhängiger Zugriff**
-  - Zugriff auf gewünschte Services ist nicht mehr an den Arbeitsplatz gebunden
+  - Zugriff auf gewünschte Services ist nicht an den Arbeitsplatz gebunden
 
 ---
 
