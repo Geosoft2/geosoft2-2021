@@ -30,7 +30,7 @@ Machine learning approaches are divided into three general types, depending on t
 * Machine is exposed to an environment where it trains itself continually using trial and error.
 * Learns from the past and tries to maximise positive feedback.
 
-#### Simple example of supervised learning using k-nn algorithm: ![](/pictures/supervisednewpointclassified.png)
+#### Simple example of supervised learning using k-nn algorithm: ![Text](/pictures/supervisednewpointclassified.png)
 
 ## Most common methods
 
