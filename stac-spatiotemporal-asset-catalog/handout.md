@@ -27,11 +27,11 @@ Informationsquelle: https://stacspec.org/
 
 ## Warum STAC? “The Advantages of using STAC’s” 
 
-### *STAC ist für Datenanbieter*
+#### *STAC ist für Datenanbieter*
 
 - STAC ist ein standardisierter Weg, um Bestände von räumlichen und zeitlichen Daten für den externen Zugriff (Suchmaschinen, wachsendes System von Tools) zugänglich zu machen
 
-### *STAC ist für Entwickler*
+#### *STAC ist für Entwickler*
 
 - Um Infrastruktur aufzubauen, um Sammlungen von Geodaten oder Bildprodukten zu hosten, aufzunehmen oder zu verwalten, ist das Kern-JSON Minimum, das für die Interaktion mit jeder Geodatensammlung erforderlich ist. 
   * JSON-Kern ist vollständig **erweiterbar**: Hinzufügen von Attributen möglich, um Anwendungsfall oder Datensatz besser zu erfassen. 
@@ -44,7 +44,7 @@ Informationsquelle: https://stacspec.org/
   * Beide Arten unterstützen die Erstellung einer Katalog-Webseite mit STAC-kompatiblen Artikeln: kann interaktive Landing Page für die einzelnen Daten sein und lässt sich leicht so konfigurieren, dass sie von einer **Suchmaschine gecrawlt** werden kann. 
 - Von Entwicklern für Entwickler entwickelt, sodass die Implementierung in der Regel einfach ist, und es ein wachsendes System von Tools und Bibliotheken gibt, die verwendet werden können.
 
-### *STAC ist für Datennutzer*
+#### *STAC ist für Datennutzer*
 
 - Nutzer von räumlich-zeitlichen Datensätzen müssen oft eigene Pipelines für die Aufnahme von Sammlungen in ihr System erstellen, Sammlungen werden mit unterschiedlich detaillierten Metadaten und über verschiedene Bereitstellungsmechanismen geliefert
 
@@ -52,7 +52,7 @@ Informationsquelle: https://stacspec.org/
 
 ## Philosophie
 
-1. Kleiner, flexibler Kern:
+1. ##### Kleiner, flexibler Kern:
   * STAC soll einfach zu implementieren und an bestehende Implementierungen anpassbar sein. 
   * Die STAC-Validierung ermöglicht maximale Flexibilität, indem sie einfach das Vorhandensein von Schlüsselfeldern prüft und es ermöglicht, dass andere implementierungsspezifische Felder von STAC-Clients nach Bedarf genutzt werden können. 
   * Alle Teile von STAC sollten kleinteilig und lose gekoppelt sein, um eine agile Entwicklung zu ermöglichen.
