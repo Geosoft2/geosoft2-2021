@@ -109,7 +109,8 @@ STAC-API |
 - STAC-API-Spezifikation unterscheidet sich ein wenig von den anderen
 - Anstatt nur JSON und Links zu spezifizieren, die ohne bewegliche Teile implementiert werden können, definiert sie eine RESTful Service-Schnittstelle für die Suche. 
 - Sie erzeugt dynamisch eine GeoJSON FeatureCollection von STAC Items als Antwort auf eine Benutzeranfrage
-- Die Rückgabe erfolgt bis zu einer vom Client optional angeforderten Grenze und enthält auslagerbare Links, um alle Ergebnisse nach dieser Grenze zu durchlaufen.
+  * Die Rückgabe erfolgt bis zu einer vom Client optional angeforderten Grenze und enthält auslagerbare Links, um alle Ergebnisse nach dieser Grenze zu durchlaufen.
+
 Siehe für Beispiel unter STAC - OpenAPI:
 https://stacspec.org/STAC-api.html
 
