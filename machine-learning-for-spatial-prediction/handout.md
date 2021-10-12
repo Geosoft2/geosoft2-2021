@@ -72,9 +72,8 @@ we only applied the algorithms on classification examples, because it easier to 
   
 
 ### Supervised algorithms in remote sensing
-
-
 -------
+
 #### Decision Tree
 
 * classification and regression method
