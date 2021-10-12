@@ -77,8 +77,6 @@ we only applied the algorithms on classification examples, because it easier to 
 
 #### Decision Tree
 
-  
-
 * classification and regression method
 
 ###### How it works?
@@ -89,3 +87,34 @@ The binary tree is the simplest version of a decision tree (splits the data into
 Example Decision Tree in Remote Sensing:
 
 ![Decision Tree example](/machine-learning-for-spatial-prediction/pictures/DecisionTree.png)
+
+
+#### Random Forest
+
+The Random Forest is a supervised machine learning algorithm that is used for classification and regression. It operates by constructing multiple Decision Trees during training phase (machine learning process).
+
+Each decision tree gives a "vote" (makes a decision).
+
+The decision of the majority of the trees is chosen as the final decision of the random forest.
+
+##### Use cases of Random Forest
+
+* Remote Sensing – used in ETM (Enhanced Thematic Mapper) devices to acquire images of the earth’s surface
+* Object Detection – multiclass object detection
+* Kinect – used in game console camera to track body movements and recreate them in a game
+* banking, stock market and e-commerce
+* medicine etc.
+
+> We focus on the remote sensing use case
+
+
+##### Benefits of Random Forests
+
+* No overfitting – use of multiple trees reduce the risk of overfitting
+* Less training time
+* High accuracy – runs efficiently on large databases and produces highly accurate predictions
+* Estimates missing data – can maintain accuracy even a large proportion of data is missing
+
+##### How does Random Forst work?
+
+![Random forest example](/machine-learning-for-spatial-prediction/pictures/RandomForest.png)
