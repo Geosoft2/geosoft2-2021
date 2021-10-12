@@ -88,4 +88,4 @@ The binary tree is the simplest version of a decision tree (splits the data into
 
 Example Decision Tree in Remote Sensing:
 
-![Decision Tree example](/pictures/DecisionTree.png)
+![Decision Tree example](/machine-learning-for-spatial-prediction/pictures/DecisionTree.png)
