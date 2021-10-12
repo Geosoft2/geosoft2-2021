@@ -47,7 +47,8 @@ Informationsquelle: https://stacspec.org/
 ### STAC ist für Datennutzer
 
 - Nutzer von räumlich-zeitlichen Datensätzen müssen oft eigene Pipelines für die Aufnahme von Sammlungen in ihr System erstellen, Sammlungen werden mit unterschiedlich detaillierten Metadaten und über verschiedene Bereitstellungsmechanismen geliefert
-=> die Notwendigkeit maßgeschneiderter Arbeitsabläufe (Aufwand) beseitigen
+
+=> die **Notwendigkeit maßgeschneiderter Arbeitsabläufe (Aufwand) beseitigen**
 
 
 
