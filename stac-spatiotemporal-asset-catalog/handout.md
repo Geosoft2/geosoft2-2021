@@ -81,14 +81,34 @@ einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden,
      
 STAC-Element (Item) | STAC-Katalog (Catalog) | STAC-Sammlung (Collection) | STAC-API
 ------------ | ------------- | ------------- | -------------
-- atomare Sammlung von untrennbaren Daten und Metadaten = Grundlage eines jeden STAC 
+- Atomare Sammlung von untrennbaren Daten und Metadaten = Grundlage eines jeden STAC 
 -	GeoJSON-Feature, kann von jedem modernen GIS oder jeder Geospatial-Bibliothek leicht gelesen werden. 
 -	JSON-Spezifikation enthält zusätzliche Felder für:
   * Den repräsentierten Zeitpunkt;
   * ein Vorschaubild für schnelles Blättern;
   * Asset-Links, Links zu den beschriebenen Daten;
   * Relationship-Links (andere verwandte STAC-Elemente durchsuchen)
-- kann zusätzliche Felder und JSON-Strukturen enthalten, um es Datenanbietern zu ermöglichen, reichhaltige Metadaten zu veröffentlichen und Softwareentwicklern die Möglichkeit zu geben, Tools zu erstellen |
+- kann zusätzliche Felder und JSON-Strukturen enthalten, um es Datenanbietern zu ermöglichen, reichhaltige Metadaten zu veröffentlichen und Softwareentwicklern die Möglichkeit zu geben, Tools zu erstellen 
+| - Bietet flexible Struktur, um verschiedene STAC-Elemente miteinander zu verknüpfen, damit sie gecrawlt oder durchsucht werden können. 
+- Spezifikation ist recht einfach, nur ein JSON, das:
+
+  * eine Liste von STAC-Elementen enthält;
+  * eine Liste von untergeordneten STAC-Katalogen enthält, die eine hierarchische Gruppierung von STAC-Elementen ermöglichen.
+
+o	Keine Einschränkungen bezüglich der Art und Weise, wie Kataloge organisiert sind. 
+o	Die meisten Implementierungen verwenden eine Reihe von "Unterkatalogen" um Elemente auf sinnvolle Weise zu gruppieren. 
+| - Erweitert den Catalog direkt und fügt zusätzliche Felder hinzu, um Dinge wie die räumliche und zeitliche Ausdehnung der Daten, die Lizenz, Schlüsselwörter, Anbieter usw. zu beschreiben. 
+o	Wird von Teilen der STAC-Gemeinschaft als eigenständige Methode zur Beschreibung von Datenbeständen verwendet.
+| - STAC-API-Spezifikation unterscheidet sich ein wenig von den anderen
+- Anstatt nur JSON und Links zu spezifizieren, die ohne bewegliche Teile implementiert werden können, definiert sie eine RESTful Service-Schnittstelle für die Suche. 
+- Sie erzeugt dynamisch eine GeoJSON FeatureCollection von STAC Items als Antwort auf eine Benutzeranfrage
+- Die Rückgabe erfolgt bis zu einer vom Client optional angeforderten Grenze und enthält auslagerbare Links, um alle Ergebnisse nach dieser Grenze zu durchlaufen.
+Siehe für Beispiel unter STAC - OpenAPI:
+https://stacspec.org/STAC-api.html
+
+
+
+
 
 
 
