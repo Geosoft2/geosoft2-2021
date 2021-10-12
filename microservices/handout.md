@@ -53,11 +53,11 @@ Each microservice uses it's own database (DB) or an encapsulated application/ins
 
 ## Detailed design
 
-This is the bulk of the RFC. Explain the design in enough detail for somebody
-familiar with React to understand, and for somebody familiar with the
-implementation to implement. This should get into specifics and corner-cases,
-and include examples of how the feature is used. Any new terminology should be
-defined here.
+There are various patterns for a microservice architecture to solve data management or the communication between services. Due this situation we've picked one framework from the NodeJS ecosystem which give us the flexibility to use several patterns or technologies.
+
+NestJS is a framework which is written in TypeScript and brings up good design patterns for implementing software. NestJS natively supports the microservice architectural style of development because of its modular architecture. It's also possible to start with a monolith (see section "Alternatives") and afterwards to separate each module into a microservice.
+
+"Nest supports several built-in transport layer implementations, called transporters, which are responsible for transmitting messages between different microservice instances. Most transporters natively support both request-response and event-based message styles." https://docs.nestjs.com/microservices/basics
 
 ## Drawbacks
 
@@ -75,8 +75,10 @@ Both options, the monolith or microsercive architecture could be combined with s
 
 ## Unresolved questions
 
-Optional, but suggested for first drafts. What parts of the design are still
-TBD?
+- Is the microservice architecture a good fit for our project?
+- What are the advantages of such an implementation?
+- Is NestJS a good way to go? What about the integration of a microservice which are not using JavaScript/TypeScript?
+- How to deploy and run microservices?
 
 ## Resources
 
