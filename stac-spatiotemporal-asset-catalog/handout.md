@@ -25,5 +25,29 @@ Informationsquelle: https://stacspec.org/
   *	Die meisten Geodatenkataloge setzen voraus, dass der Datenanbieter Server und Datenbanken unterhält, um die Suche zu ermöglichen -> bei riesigen Datenmengen Herausforderung 
 -	STAC zielt darauf ab, nächste Generation von Geodaten-Suchmaschinen zu ermöglichen und gleichzeitig bewährte Web-Praktiken zu unterstützen, damit Geodaten in herkömmlichen Suchmaschinen leichter auffindbar sind.
 
+## Warum STAC? “The Advantages of using STAC’s” 
+
+### *STAC ist für Datenanbieter*
+
+- STAC ist ein standardisierter Weg, um Bestände von räumlichen und zeitlichen Daten für den externen Zugriff (Suchmaschinen, wachsendes System von Tools) zugänglich zu machen
+
+### *STAC ist für Entwickler*
+
+- Um Infrastruktur aufzubauen, um Sammlungen von Geodaten oder Bildprodukten zu hosten, aufzunehmen oder zu verwalten, ist das Kern-JSON Minimum, das für die Interaktion mit jeder Geodatensammlung erforderlich ist. 
+  * JSON-Kern ist vollständig erweiterbar: Hinzufügen von Attributen möglich, um Anwendungsfall oder Datensatz besser zu erfassen. 
+  * Darüber hinaus standardisiert STAC Metadatenfelder, Namenskonventionen, Abfragesprache und Katalogstruktur. 
+-	Als Entwickler haben Sie zwei Möglichkeiten, STAC zu implementieren: 
+  * als statischen STAC 
+   * unglaublich einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden, die die STAC-API generieren 
+  oder
+  * über die STAC-API 
+   * ermöglicht die Abfrage von Daten in einer Standardsprache und die Rückgabe einer Teilmenge des Katalogs
+
+-> Beide Arten unterstützen die Erstellung einer Katalog-Webseite mit STAC-kompatiblen Artikeln. 
+  * Diese Webseite kann eine interaktive Landing Page für die einzelnen Daten sein und lässt sich leicht so konfigurieren, dass sie von einer Suchmaschine gecrawlt werden kann. 
+- Von Entwicklern für Entwickler entwickelt, sodass die Implementierung in der Regel einfach ist, und es ein wachsendes System von Tools und Bibliotheken gibt, die verwendet werden können.
+
+
+
 
 
