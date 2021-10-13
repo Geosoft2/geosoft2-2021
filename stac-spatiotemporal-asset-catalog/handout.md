@@ -86,7 +86,7 @@ STAC-Element (Item) |
 ------------ |
 - Atomare Sammlung von untrennbaren Daten und Metadaten = Grundlage eines jeden STAC 
 - GeoJSON-Feature: kann von jedem modernen GIS oder jeder Geospatial-Bibliothek leicht gelesen werden 
-- JSON-Spezifikation enthält zusätzliche Felder für:
+- JSON-Spezifikation enthält Felder für:
   * den repräsentierten Zeitpunkt
   * ein Vorschaubild für schnelles Blättern
   * Asset-Links, Links zu den beschriebenen Daten
