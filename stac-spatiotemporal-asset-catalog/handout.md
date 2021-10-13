@@ -5,9 +5,9 @@ Informationsquelle: https://stacspec.org/
 
 ## Ausgangspunkt
 
-- Es gibt heutzutage eine riesige Menge an Geodaten, die unser Verständis der Welt erheblich verbessern und unsere Entscheidungen erleichtern könnten
-- Die meisten dieser Daten sind jedoch unzugänglich, da sie in unzähligen verschiedenen Formaten vorliegen und es keine einheitliche Methode gibt, um relevante Informationen über einen Ort im Laufe der Zeit zu finden
-- Wenn ein Nutzer nach allen Bildern in seinem Interessengebiet und -zeitraum suchen möchte, kann er nicht nur eine Suche durchführen - er muss verschiedene Tools verwenden und sich mit APIs verbinden, die zwar ähnlich, aber alle leicht unterschiedlich sind. 
+- Es gibt heutzutage eine riesige Menge an **Geodaten**, die unser Verständis der Welt erheblich verbessern und unsere Entscheidungen erleichtern könnten
+- Die meisten dieser Daten sind jedoch **unzugänglich**, da sie in unzähligen verschiedenen Formaten vorliegen und es keine einheitliche Methode gibt, um relevante Informationen über einen Ort im Laufe der Zeit zu finden
+- Wenn ein Nutzer nach allen Bildern in seinem Interessengebiet und -zeitraum suchen möchte, kann er nicht nur eine Suche durchführen - er muss verschiedene Tools verwenden und sich mit APIs verbinden, die zwar ähnlich, aber alle leicht **unterschiedlich** sind. 
 => **STAC!**
 
 ## Was ist STAC?
@@ -17,7 +17,7 @@ Informationsquelle: https://stacspec.org/
 - **Der SpatioTemporal Asset Catalog (STAC)** ist eine offene Spezifikation, die aus der Zusammenarbeit verschiedener Organisationen entstanden ist, um den Zugang zu sowie die Bereitstellung von Informationen über unseren Planeten zu verbessern 
 
 ***Das Ziel von STAC:*** 
-  * über eine **gemeinsame Sprache** zur Beschreibung von Geodaten einen globalen Index für alle Bilddaten (Satelliten-, Luft-, Drohnenbilder usw.), abgeleitete Datenprodukte und alternative Geodatenerfassungen (LiDAR, SAR, Full Motion Video, Hyperspektralaufnahmen usw.) zu erstellen. 
+  * über eine **gemeinsame Sprache** zur Beschreibung von Geodaten einen **globalen Index** für alle Bilddaten (Satelliten-, Luft-, Drohnenbilder usw.), abgeleitete Datenprodukte und alternative Geodatenerfassungen (LiDAR, SAR, Full Motion Video, Hyperspektralaufnahmen usw.) zu erstellen. 
 
 <img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Logo.PNG" alt="drawing" width="360" height="200"/> <img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Supporters.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)*
 
@@ -56,8 +56,7 @@ einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden,
 ## Philosophie
 
 1. #### *Kleiner, flexibler Kern:*
-  * einfach zu implementieren und an bestehende Implementierungen anpassbar sein. 
-  * Ermöglichung maximaler Flexibilität
+  * einfach zu implementieren und an bestehende Implementierungen anpassbar -> Ermöglichung maximaler Flexibilität
   * Alle Teile kleinteilig und lose gekoppelt, um eine agile Entwicklung zu ermöglichen.
 2. #### *Entwicklung von Best Practices und Erweiterungen durch reale Nutzung:*
   * Während sich der STAC-Kern auf eine minimale Spezifikation konzentriert, werden kontinuierlich optionale Erweiterungen hinzugefügt, um die Interoperabilität und Nutzbarkeit der über STAC bereitgestellten Daten zu erhöhen. 
@@ -69,52 +68,52 @@ einfach zu erstellen und kann leicht von verschiedenen Tools aufgenommen werden,
 
 ## -> Zukunftsvisionen von STAC
 
-- Die Verfolgung der Herkunft bis zur Quelle ist ein Traum der meisten Nutzer von Geodaten -> Ermöglichen durch Cloud-Dienst
+- Die **Verfolgung der Herkunft bis zur Quelle** ist ein Traum der meisten Nutzer von Geodaten -> Ermöglichen durch Cloud-Dienst
 - Während jeder mit Google und der Möglichkeit, jede Webseite auf der Welt zu durchsuchen, vertraut ist, ist dies für Geodaten noch nicht möglich.
-  * Die Vision des STAC für die globale Suche ist nicht, Suchanfragen an jeden STAC-Server zu senden, sondern einfach jedes Element "web-crawlable" zu machen.
-  * Herkunfts-Links zwischen Katalogen tragen zur Auffindbarkeit bei, indem sie das Ranking einer Seite in den Algorithmen der Suchmaschinen erhöhen. Stabiles HTML bedeutet mehr Links zu diesen Seiten, was sie in den Suchergebnissen weiter nach oben bringt
-- Förderung der Konversation über Geostandards und Prozesse, Voranbringen des Standards im Bereich Geodaten als Ganzes -> Zusammenarbeit
+  * Die Vision des STAC für die globale Suche ist nicht, Suchanfragen an jeden STAC-Server zu senden, sondern einfach **jedes Element "web-crawlable"** zu machen.
+  * Herkunfts-Links zwischen Katalogen tragen zur Auffindbarkeit bei, indem sie das Ranking einer Seite in den Algorithmen der Suchmaschinen erhöhen. Stabiles HTML bedeutet mehr Links zu diesen Seiten, was sie in den **Suchergebnissen weiter nach oben** bringt
+- Förderung der **Konversation über Geostandards und Prozesse**, Voranbringen des Standards im Bereich Geodaten als Ganzes -> Zusammenarbeit
 
 ## Kernkomponenten von STAC
 
-- Spezifikation erscheint zunächst recht „leicht“: flexibel und erweiterbar: verschiedene Bereiche und Werkzeuge leicht zu eigen machen:
-  * Der Schlüssel ist die Flexibilität und Erweiterbarkeit von JSON 
+- Spezifikation erscheint zunächst recht „leicht“: **flexibel und erweiterbar**: verschiedene Bereiche und Werkzeuge leicht zu eigen machen:
+  * Flexibilität und Erweiterbarkeit von JSON 
   *	JSON-Validierung unterstützt Vielzahl von Datentypen und Implementierungen durch das Hinzufügen weiterer Felder 
   *	Erweiterungen (siehe GitHub): Ziel: Gemeinschaften in die Lage versetzen, zusammenzuarbeiten, um einen "ausreichend guten" Satz gemeinsamer Metadaten zu finden.
      
 STAC-Element (Item) | 
 ------------ |
-- Atomare Sammlung von untrennbaren Daten und Metadaten = Grundlage eines jeden STAC 
+- Atomare Sammlung von untrennbaren Daten und Metadaten = **Grundlage** eines jeden STAC 
 - GeoJSON-Feature: kann von jedem modernen GIS oder jeder Geospatial-Bibliothek leicht gelesen werden 
-- JSON-Spezifikation enthält Felder für:
+- **JSON-Spezifikation** enthält Felder für:
   * den repräsentierten Zeitpunkt
   * ein Vorschaubild für schnelles Blättern
   * Asset-Links, Links zu den beschriebenen Daten
   * Relationship-Links (andere verwandte STAC-Elemente durchsuchen)
-- kann zusätzliche Felder und JSON-Strukturen enthalten, um es Datenanbietern zu ermöglichen, wichtige Metadaten zu veröffentlichen und Softwareentwicklern die Möglichkeit zu geben, Tools zu erstellen 
+- kann **zusätzliche Felder und JSON-Strukturen** enthalten, um es Datenanbietern zu ermöglichen, wichtige Metadaten zu veröffentlichen und Softwareentwicklern die Möglichkeit zu geben, Tools zu erstellen 
 
 STAC-Katalog (Catalog) | 
 ------------ |
-- Bietet flexible Struktur, um verschiedene STAC-Elemente miteinander zu verknüpfen, damit sie gecrawlt oder durchsucht werden können. 
+- Bietet **flexible Struktur**, um verschiedene STAC-Elemente miteinander zu **verknüpfen**, damit sie gecrawlt oder durchsucht werden können. 
 - Spezifikation ist recht einfach, nur ein JSON, das:
-  * eine Liste von STAC-Elementen enthält;
-  * eine Liste von untergeordneten STAC-Katalogen enthält, die eine hierarchische Gruppierung von STAC-Elementen ermöglichen.
--	Keine Einschränkungen bezüglich der Art und Weise, wie Kataloge organisiert sind. 
--	Die meisten Implementierungen verwenden eine Reihe von "Unterkatalogen" um Elemente auf sinnvolle Weise zu gruppieren. 
+  * eine **Liste von STAC-Elementen** enthält;
+  * eine **Liste von untergeordneten STAC-Katalogen** enthält, die eine hierarchische Gruppierung von STAC-Elementen ermöglichen.
+-	Keine Einschränkungen bezüglich der Art und Weise, **wie** Kataloge **organisiert** sind. 
+-	Die meisten Implementierungen verwenden eine Reihe von **"Unterkatalogen"** um Elemente auf sinnvolle Weise zu gruppieren. 
 
 STAC-Sammlung (Collection) | 
 ------------ | 
-- Erweitert den Catalog direkt und fügt zusätzliche Felder hinzu, um Dinge wie die räumliche und zeitliche Ausdehnung der Daten, die Lizenz, Schlüsselwörter, Anbieter usw. zu beschreiben. 
--	Wird von Teilen der STAC-Gemeinschaft als eigenständige Methode zur Beschreibung von Datenbeständen verwendet.
+- **Erweitert den Catalog** direkt und fügt zusätzliche Felder hinzu, um Dinge wie die räumliche und zeitliche Ausdehnung der Daten, die Lizenz, Schlüsselwörter, Anbieter usw. zu beschreiben. 
+-	Wird von Teilen der STAC-Gemeinschaft als **eigenständige Methode** zur Beschreibung von Datenbeständen verwendet.
 
 STAC-API |
 ------------ | 
-- STAC-API-Spezifikation unterscheidet sich ein wenig von den anderen
-- Anstatt nur JSON und Links zu spezifizieren, die ohne bewegliche Teile implementiert werden können, definiert sie eine RESTful Service-Schnittstelle für die Suche. 
-- Erzeugt dynamisch eine GeoJSON FeatureCollection von STAC Items als Antwort auf eine Benutzeranfrage
+- STAC-API-Spezifikation **unterscheidet** sich ein wenig von den anderen
+- Anstatt nur JSON und Links zu spezifizieren, die ohne bewegliche Teile implementiert werden können, definiert sie eine **RESTful Service-Schnittstelle für die Suche**. 
+- Erzeugt **dynamisch eine GeoJSON FeatureCollection von STAC Items** als Antwort auf eine Benutzeranfrage
   * Die Rückgabe erfolgt bis zu einer vom Client optional angeforderten Grenze und enthält auslagerbare Links, um alle Ergebnisse nach dieser Grenze zu durchlaufen.
 
-Siehe für Beispiel unter STAC - OpenAPI:
+Siehe für **Beispiel** unter STAC - OpenAPI:
 https://stacspec.org/STAC-api.html
 
 <img src="https://github.com/KatharinaGI/geosoft2-2021/blob/main/stac-spatiotemporal-asset-catalog/Screenshot_Beispielarea.PNG" alt="drawing" width="380" height="200"/> *(Bildquelle: https://stacspec.org/)*
