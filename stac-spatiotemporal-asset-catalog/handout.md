@@ -38,7 +38,7 @@ Informationsquelle: https://stacspec.org/
 - Um Infrastruktur aufzubauen, um Sammlungen von Geodaten oder Bildprodukten zu hosten, aufzunehmen oder zu verwalten, ist das Kern-JSON Minimum, das für die Interaktion mit jeder Geodatensammlung erforderlich ist. 
   * JSON-Kern ist vollständig **erweiterbar**: Hinzufügen von Attributen möglich, um Anwendungsfall oder Datensatz besser zu erfassen. 
   * Darüber hinaus standardisiert STAC Metadatenfelder, Namenskonventionen, Abfragesprache und Katalogstruktur. 
--	Als Entwickler haben Sie zwei Möglichkeiten, STAC zu implementieren: 
+-	Als Entwickler hat man zwei Möglichkeiten, STAC zu implementieren: 
 
 Statischer STAC| STAC-API
 ------------ | -------------
